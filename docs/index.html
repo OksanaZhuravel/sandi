@@ -5,13 +5,13 @@
 	<title>SCANDI</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220825181530">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220825213909">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-	<dv class="wrapper">
+	<dv class="wrapper ">
 		<header class="header">
 			<div class="header__container">
 				<div class="header__logo logo">
@@ -25,9 +25,9 @@
 						<li class="menu__item"><a data-goto=".about" href="" class="menu__link">О компании</a></li>
 						<li class="menu__item"><a data-goto=".portfolio" href="" class="menu__link">Портфолио</a></li>
 						<li class="menu__item"><a data-goto=".team" href="" class="menu__link">Команда</a></li>
-						<li class="menu__item"><a data-goto="" href="" class="menu__link">Как мы работаем</a></li>
-						<li class="menu__item"><a data-goto="" href="" class="menu__link">Отзывы клиентов</a></li>
-						<li class="menu__item"><a data-goto="" href="" class="menu__link">Оставить заявку</a></li>
+						<li class="menu__item"><a data-goto=".work" href="" class="menu__link">Как мы работаем</a></li>
+						<li class="menu__item"><a data-goto=".reviews" href="" class="menu__link">Отзывы клиентов</a></li>
+						<li class="menu__item"><a data-goto=".request" href="" class="menu__link">Оставить заявку</a></li>
 					</ul>
 				</nav>
 				<a href="tel:79818574624" data-popup="#callback" class="header__button menu__link"><span>+7 (981)
@@ -49,7 +49,7 @@
 			</section>
 			<section class="page-about about">
 				<div class="about__container">
-					<h2 class="about__title">О нас</h2>
+					<h2 class="about__title title">О нас</h2>
 					<div class="about__content">
 						<div class="about__img"><picture><source srcset="img/about/about.webp" type="image/webp"><img src="img/about/about.png" alt="Стол с вазой"></picture></div>
 						<div class="about__inner">
@@ -62,9 +62,7 @@
 						</div>
 					</div>
 				</div>
-
 				<ul class=" about__container about__list">
-
 					<li class="about__item"><span class="about__number">5 </span><span class="about__subtext">лет опыта</span>
 					</li>
 					<li class="about__item"><span class="about__number">100</span><span class="about__subtext">проектов</span>
@@ -72,12 +70,10 @@
 					<li class="about__item"><span class="about__number">10</span><span class="about__subtext">наград</span>
 					</li>
 				</ul>
-
-
 			</section>
 			<section class="page-portfolio portfolio">
 				<div class="portfolio__container">
-					<h2 class="portfolio__title">Наши работы</h2>
+					<h2 class="portfolio__title title">Наши работы</h2>
 					<div class="portfolio__content">
 						<a href="" class="portfolio__cart cart">
 							<picture><source srcset="img/work/1.webp" type="image/webp"><img class="cart__img" src="img/work/1.png" alt="Квартира-студия"></picture>
@@ -117,7 +113,7 @@
 			</section>
 			<section class="page-team team">
 				<div class="team__container">
-					<h2 class="team__title">Команда</h2>
+					<h2 class="team__title title">Команда</h2>
 					<ul class="team__list">
 						<li class="team__item">
 							<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.png" alt="фото" class="team__img"></picture>
@@ -143,7 +139,7 @@
 			</section>
 			<section class="page-work work">
 				<div class="work__container">
-					<h2 class="work__title">Как мы работаем</h2>
+					<h2 class="work__title title">Как мы работаем</h2>
 					<ol class="work__list">
 						<li class="work__item">
 							<p class="work__text">Знакомимся, выезжаем
@@ -164,10 +160,89 @@
 					</ol>
 				</div>
 			</section>
+			<section class="page-reviews reviews">
+				<div class="reviews__container">
+					<h2 class="reviews__title title">Отзывы</h2>
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide slide">
+								<div class="slide__wrap">
+									<div class="slide__body">
+										<p class="slide__text">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию
+											для украшения своего дома.
+										</p>
+										<p class="slide__text">
+											Работа шла быстро, было очень приятно общаться и взаимодействовать
+											с сотрудниками. Не ожидала, что это будет так легко!
+										</p>
+										<p class="slide__text">
+											Буду советовать и своим друзьям к вам обращаться!»</p>
+										<p class="slide__name">АННА БЕЛОВСКАЯ</p>
+									</div>
+									<div class="slide__img">
+										<picture><source srcset="img/review/1.webp" type="image/webp"><img src="img/review/1.png" alt="Отзыв"></picture>
+										<picture><source srcset="img/review/2.webp" type="image/webp"><img src="img/review/2.png" alt="Отзыв"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide slide">
+								<div class="slide__wrap">
+									<div class="slide__body">
+										<p class="slide__text">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию
+											для украшения своего дома.
+										</p>
+										<p class="slide__text">
+											Буду советовать и своим друзьям к вам обращаться!»</p>
+										<p class="slide__name">АННА</p>
+									</div>
+									<div class="slide__img">
+										<picture><source srcset="img/review/2.webp" type="image/webp"><img src="img/review/2.png" alt="Отзыв"></picture>
+										<picture><source srcset="img/review/1.webp" type="image/webp"><img src="img/review/1.png" alt="Отзыв"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button>
+					</div>
+				</div>
+			</section>
+
+			<section class="page-request request">
+				<div class="request__container">
+					<div class="request__content">
+						<h2 class="request__title title">Оставить заявку</h2>
+						<p class="request__text">Оставьте свои контакты. Менеджер перезвонит
+							в удобное вам время и ответит на все вопросы.</p>
+						<form class="form" id="form" data-dev>
+
+							<div class="form__item">
+								<input data-required type="text" name="name" placeholder="Ваше имя*" class="form__input" data-error="Введите Ваше Имя">
+							</div>
+							<div class="form__item">
+								<input data-required type="tel" name="phone" placeholder="Введите телефон*" data-error="Введите Номер Телефона" class="form__input">
+							</div>
+							<div class="form__buttons">
+								<button type="submit" class="button">Оставить заявку</button>
+							</div>
+						</form>
+					</div>
+					<div class="request__map">
+						<picture><source srcset="img/map/map.webp" type="image/webp"><img src="img/map/map.png" alt="Карта"></picture>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
+				<div class="footer__inner">
+					<a href="tel:79818574624" class="footer__button menu__link"><span>+7 (981)
+							857-46-24</span></a>
+					<div class="footer__addres">г. Санкт-петербург, ул. Большая Конюшенная, 19</div>
+				</div>
+				<div class="footer__text">ИП Королёва А.А.</div>
 			</div>
+
 		</footer>
 		</div>
 		<!-- <div id="callback" aria-hidden="true" class="popup">
@@ -196,7 +271,7 @@
     </div>
   </div>
 </div> -->
-		<script src="js/app.min.js?_v=20220825181530"></script>
+		<script src="js/app.min.js?_v=20220825213909"></script>
 </body>
 
 </html>
