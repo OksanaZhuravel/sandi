@@ -1,0 +1,25 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 309px;
+  padding: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: $slideButton;
+  color: $mainColor;
+  transition: all 0.3s ease 0s;
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: $mainColor;
+      color: $slideButton;
+    }
+  }
+  &._fw {
+    width: 100%;
+  }
+}
